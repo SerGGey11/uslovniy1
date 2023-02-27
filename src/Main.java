@@ -3,7 +3,7 @@ public class Main {
         task1();
         task2();
         task3();
-
+        task4();
     }
     public static void task1(){
         int age = 18;
@@ -33,6 +33,9 @@ public class Main {
         if (speed2 <= 60){
             System.out.println("Если скорость " + speed2 + " ,можно ехать спокойно");
         }
+        }
+        public static void task4(){
+
         }
     }
 
