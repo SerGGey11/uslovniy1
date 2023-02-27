@@ -5,6 +5,8 @@ public class Main {
         task3();
         task4();
         task5();
+        task6();
+        task7();
     }
 
     public static void task1() {
@@ -56,26 +58,46 @@ public class Main {
                     " года, то он должен учиться в институте");
         }
         int age4 = 27;
-        if (age4 >24){
+        if (age4 > 24) {
             System.out.println("Если возраст человека равен " + age4 +
                     " лет, то ему пора ходить на работу");
         }
     }
-    public static void task5(){
+
+    public static void task5() {
         int age = 4;
-        if (age < 5){
+        if (age < 5) {
             System.out.println("Если возраст ребёнка равен " + age +
                     " года, то ему нельзя кататься на аттракционе");
         }
         int age1 = 8;
-        if (age1 >5 && age1 <14){
+        if (age1 > 5 && age1 < 14) {
             System.out.println("Если ребёнку " + age1 +
                     " лет, то он может кататься только со взрослым");
         }
         int age2 = 16;
-        if (age2 >14){
+        if (age2 > 14) {
             System.out.println("Если возраст ребёнка достиг " + age2 +
                     " лет, то он может кататься без взрослых");
+        }
+    }
+
+    public static void task6() {
+        int places = 95;
+        if (places >= 102){
+            System.out.println("Если в вагоне занято " + places + " мест, значит свободных мест не осталось ");
+        }else{
+            System.out.println(" В вагоне есть свободные места");
+        }
+    }
+    public static void task7(){
+        int one = 1;
+        int two = 2;
+        int three = 3;
+        if (one > three && two > three){
+            System.out.println("Если рассматривать первые два числа то число " + two + " будет наиболее большим" );
+        }else{
+            System.out.println("Число " + three + " будет наиболее большим");
         }
     }
 }
